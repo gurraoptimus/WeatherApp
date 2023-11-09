@@ -43,3 +43,6 @@ body{
     text-transform: uppercase;
     padding: 0 48px 0  42px;
 }
+.search-box input::placeholder{
+    color: #fff;
+}
