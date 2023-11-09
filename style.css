@@ -22,5 +22,10 @@ body{
     padding: 20px;
 }
 .search-box{
-    
+    position: relative;
+    width: 100%;
+    height: 55px;
+    background: slateblue;
+    display: flex;
+    align-items: center;
 }
