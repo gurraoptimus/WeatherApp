@@ -71,3 +71,7 @@ margin: 40 0;
 .weather-box img{
     width: 60%;
 }
+.weather-box .temperature{
+ position: relative;
+ font-size: 64px;   
+}
