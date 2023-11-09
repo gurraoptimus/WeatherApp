@@ -21,6 +21,11 @@ body{
     border-radius: 16px;
     padding: 20px;
 }
+.search-box i{
+    position: absolute;
+    left: 10;
+    font-size: 28px;
+}
 .search-box{
     position: relative;
     width: 100%;
@@ -28,11 +33,6 @@ body{
     background: slateblue;
     display: flex;
     align-items: center;
-}
-.search-box i{
-    position: absolute;
-    left: 10;
-    font-size: 28px;
 }
 .search-box input{
     position: absolute;
