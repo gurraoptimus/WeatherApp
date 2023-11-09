@@ -31,6 +31,8 @@ body{
 }
 .search-box i{
     position: absolute;
+    left: 10;
+    font-size: 28px;
 }
 .search-box input{
     position: absolute;
