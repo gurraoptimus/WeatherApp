@@ -63,3 +63,6 @@ body{
     padding: 0 40px 0 5px;
     cursor: pointer;
 }
+.weather-box img{
+    width: 60%;
+}
