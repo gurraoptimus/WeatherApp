@@ -18,4 +18,9 @@ body{
     width: 400px;
     height: 555px;
     background: purple;
+    border-radius: 16px;
+    padding: 20px;
+}
+.search-box{
+    
 }
