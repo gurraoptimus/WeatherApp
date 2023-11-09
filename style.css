@@ -46,3 +46,10 @@ body{
 .search-box input::placeholder{
     color: #fff;
 }
+.search-box button{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: transparent;
+}
