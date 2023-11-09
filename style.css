@@ -73,5 +73,7 @@ margin: 40 0;
 }
 .weather-box .temperature{
  position: relative;
- font-size: 64px;   
+ font-size: 64px;
+ line-height: 1;
+ font-weight: 700;
 }
