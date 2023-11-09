@@ -29,6 +29,9 @@ body{
     display: flex;
     align-items: center;
 }
+.search-box i{
+    position: absolute;
+}
 .search-box input{
     position: absolute;
     width: 100%;
