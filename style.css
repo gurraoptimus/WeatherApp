@@ -54,4 +54,8 @@ body{
     background: transparent;
     border: none;
     outline: none;
+    font-size: 28px;
+    color: #fff;
+    padding: 0 40px 0 5px;
+    cursor: pointer;
 }
