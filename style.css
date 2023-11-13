@@ -104,6 +104,10 @@ margin: 40 0;
 }
 .Weather-details .humidity{
     padding-left: 20px;
+    justify-content: flex-start;
+}
+.Weather-details .wind{
+    
 }
 .Weather-details i{
     font-size: 56px;
