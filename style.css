@@ -88,3 +88,27 @@ margin: 40 0;
     font-weight: 500;
     text-transform: capitalize;
 }
+.Weather-details{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+}
+.Weather-details .humidity,
+.Weather-details .wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.Weather-details i{
+    font-size: 56px;
+    margin-right: 10px;
+}
+.Weather-details span{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+.w
