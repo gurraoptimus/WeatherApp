@@ -7,15 +7,15 @@ search.addEventListener("click", ()=>{
     const APIKey = "";
     const city = document.querySelector('.search-box input').value;
 
-    if (city == '')
+    if (city =='')
         return;
     
     fetch ("https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={APIKey}").then(response => response.json()).then(json=>{
-        const image=document.querySelector('.Weather-box img');
-        const temperature=document.querySelector('.Weather-box .temperature');
-        const description=document.querySelector('.Weather-box .description');
-        const humidity=document.querySelector('.Weather-details .humidity span');
-        const wind=document.querySelector('.Weather-details .wind span');
+        const image = document.querySelector('.Weather-box img');
+        const temperature = document.querySelector('.Weather-box .temperature');
+        const description = document.querySelector('.Weather-box .description');
+        const humidity = document.querySelector('.Weather-details .humidity span');
+        const wind = document.querySelector('.Weather-details .wind span');
 
         switch (json.Weather[0].main) {
             case 'Clear':
