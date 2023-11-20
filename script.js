@@ -17,7 +17,7 @@ search.addEventListener("click", ()=>{
         const humidity=document.querySelector('.Weather-details .humidity span');
         const wind=document.querySelector('.Weather-details .wind span');
 
-        switch (json.Weather[1].main) {
+        switch (json.Weather[0].main) {
             case 'Clear':
                 image.src="images/clear.png";
                 break;
