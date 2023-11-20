@@ -44,6 +44,6 @@ search.addEventListener("click", ()=>{
 
             default:
                 image.src="images/Cloud.png";
-        }
+        };
     });
 });
