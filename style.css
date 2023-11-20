@@ -107,7 +107,8 @@ margin: 40 0;
     justify-content: flex-start;
 }
 .Weather-details .wind{
-    
+    padding-right:20px;
+    justify-content: flex-end;
 }
 .Weather-details i{
     font-size: 56px;
