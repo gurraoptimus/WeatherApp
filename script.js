@@ -10,7 +10,7 @@ search.addEventListener("click", ()=>{
     if (city =='')
         return;
     
-    fetch ("https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={APIKey}"),then(response => response.json()).then(json=>{
+    fetch ("https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid={APIKey}"),then(response => response.json()),then(json=>{
         const image = document.querySelector('.Weather-box img');
         const temperature = document.querySelector('.Weather-box .temperature');
         const description = document.querySelector('.Weather-box .description');
