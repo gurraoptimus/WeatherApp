@@ -45,5 +45,9 @@ search.addEventListener("click", ()=>{
             default:
                 image.src="images/Cloud.png";
         }
+            temperature.innerHTML=´${}´;
+        description.innerHTML=´${}´;
+        humidity.innerHTML=´${}´;
+        wind.innerHTML=´${}´;
     });
 });
