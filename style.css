@@ -25,6 +25,7 @@ body{
     border-radius: 16px;
     padding: 20px;
     color: #fff;
+    transform: height .6s ease;
     }
     .search-box{
     position: relative;
@@ -76,6 +77,11 @@ margin: 40 0;
 .Weather-details,
 .not-found {
     visibility: hidden;
+}
+.weather-box.active,
+.Weather-details.active,
+.not-found.active {
+    visibility: visible;
 }
 .weather-box img{
     width: 60%;
