@@ -12,7 +12,18 @@ search.addEventListener("click", ()=>{
         return;
     
     fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`),then(response => response.json()),then(json=>{
-        if(json)
+        if(json.cod=="404"){
+            container.style.height="400px";
+            Weatherbox.classList.remove("active")
+            Weatherdetails.classList.remove("active")
+            error404.classList.add("active")
+            return;
+        }
+        container.style.height="555px";
+        Weatherbox.classList.add("active")
+        Weatherdetails.classList.add("active")
+        error404.classList.remove("active")
+
         const image = document.querySelector('.Weather-box img');
         const temperature = document.querySelector('.Weather-box .temperature');
         const description = document.querySelector('.Weather-box .description');
