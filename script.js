@@ -12,7 +12,8 @@ search.addEventListener("click", ()=>{
         return;
     
     fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`),then(response => response.json()),then(json=>{
-        if(json.cod=="404"){
+        
+    if(json.cod=="404"){
             container.style.height="400px";
             Weatherbox.classList.remove("active")
             Weatherdetails.classList.remove("active")
